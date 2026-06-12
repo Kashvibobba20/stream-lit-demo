@@ -1,4 +1,7 @@
 import streamlit as st
+st.title ("Welcome to Streamlit")
+name = st.text_input("kashvi")
+import streamlit as st
 
 st.title("Welcome App")
 
@@ -13,8 +16,21 @@ st.write(f"Selected age: {age}")
 if st.button("Celebrate"):
     st.balloons()
 
- st.title("Hello World App")
+    import streamlit as st
+
+st.title("Hello World App")
 st.write("Hello, World!")
 
-streamlit run app.py
+
+
+
+
+
+
+
+
+
+
+
+
    
